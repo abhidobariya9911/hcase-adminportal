@@ -1,0 +1,64 @@
+/* LoginForm.css */
+
+.login-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #f5f5f5;
+}
+
+.login-form {
+  background-color: #fff;
+  padding: 2rem;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  width: 300px;
+}
+
+.form-heading {
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+h2 {
+  font-family: 'proximaNova', sans-serif;
+  font-size: 24px;
+}
+
+.form-group {
+  margin-bottom: 1rem;  
+}
+
+label {
+  display: block;
+  margin-bottom: 0.5rem;
+  font-family: 'proximaNova', sans-serif;
+}
+
+input {
+  width: 100%;
+  padding: 0.5rem;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+  font-family: 'proximaNova', sans-serif;
+}
+
+.form-actions {
+  text-align: center;
+}
+
+.submit-btn {
+  width: 100%;
+  padding: 0.75rem;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-family: 'proximaNova', sans-serif;
+}
+
+.submit-btn:hover {
+  background-color: #0056b3;
+}
